@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  
+}
+.navbar {
+  height: 106px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.navbar__collection {
+  display: flex;
+  gap: 41px;
+  list-style: none;
+  flex: 1;
+  opacity: 70%;
+}
+.navbar__link {
+  color: #150c01;
+  text-decoration: none;
+}
+.navbar__link:hover {
+  color: #dc780b;
+}
+.navbar__btn {
+  padding: 13px 30px;
+  border-radius: 5px;
+  border: none;
+  background: #dc780b;
+  color: white;
+  font-size: 16px;
+}
+.navbar__btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.div__main {
+  display: flex;
+  align-items: center;
+}
+.main__text,
+.main__photo {
+  width: 50%;
+  margin-top: 80px;
+}
+.main__photo img {
+  width: 100%;
+}
+.main__text h1 {
+  font-size: 48px;
+  margin-bottom: 42px;
+  font-family: "Philosopher", serif;
+}
+.main__text p {
+  margin-bottom: 81px;
+}
+.main__actions {
+  display: flex;
+  gap: 30px;
+}
+.main__btn {
+  padding: 21px 40px;
+  border-radius: 5px;
+  border: 1px solid #dc780b;
+  background: #dc780b;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.main__btn:hover {
+  background: transparent;
+  color: #dc780b;
+}
+.box__wrapper {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.contact_text {
+  text-align: center;
+}
+.contact_text p {
+  color: #dc780b;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+}
+.contact_text h2 {
+  font-family: Philosopher;
+  font-size: 31.25px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
+.box__wrapper h2 {
+  font-family: Philosopher;
+  font-size: 31.25px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.box__wrapper p {
+  color: #150c01;
+  opacity: 70%;
+  width: 300px;
+  height: 68px;
+  font-family: Roboto;
+  margin-top: 10px;
+}
+.box__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  margin-bottom: 100px;
+}
+
+.about_us_text h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #dc780b;
+  margin-bottom: 10px;
+}
+.about_us_text h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  font-family: Philosopher;
+}
+.about_us_text p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  opacity: 70%;
+}
+.about_us_text button {
+  padding: 10px 20px;
+  background-color: #dc780b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.about_us_text button:hover {
+  background-color: #fff;
+  color: #dc780b;
+  border: 1px solid #dc780b;
+}
+.about_us {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.menu {
+  text-align: center;
+}
+.box_collection{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.menu h4 {
+  color: #dc780b;
+  letter-spacing: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 200px;
+}
+.menu h2 {
+  font-family: Philosopher;
+  margin-top: 20px;
+  font-weight: 700;
+}
+.menu p {
+  opacity: 70%;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 15px;
+  margin-bottom: 100px;
+}
+.menu_div {
+  border: none;
+  width: 320px;
+  height: 446px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ 
+}
+.menu_div span {
+  font-family: Philosopher;
+  font-size: 32px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.menu_div p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  opacity: 70%;
+  margin-top: 15px;
+  
+}
+.menu_div img{
+    width: 100%;
+}
+.menu_btn {
+    padding: 6px 12px;
+    background: #dc780b;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px ;
+
+}
+.menu_text {
+    width: 100%;
+    padding: 20px;
+}
+.menu_text button{
+    margin-top: 30px;
+}
+
+.price {
+    display: inline-block;
+    align-items: center;
+}
